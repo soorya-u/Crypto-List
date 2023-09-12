@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+}
+
+.main{
+    margin: 0;
+    padding: auto;
+}
+
+.heading{
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: ghostwhite;
+    font-family: 'JetBrains Mono';
+}
+
+.heading h2,h5{
+    font-family: 'JetBrains Mono';
+
+}
+
+.social{
+    padding-top: 10vh;
+}
+
+.img-links{
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-github{
+    /* padding-top: 5vh; */
+    height: auto;
+    width:100px;
+    filter: invert(100%);
+    padding-right: 25px;
+}
+
+.img-insta{
+    padding-top: 1vh;
+    filter: invert(100%);
+    height: auto;
+    width:145px;
+    padding-right: 25px;
+}
+
+.img-linkedin{
+    /* padding-top: 5vh; */
+    filter: invert(100%);
+    height: auto;
+    width:135px;
+    padding-right: 25px;
+}
+.img-discord{
+    /* padding-top: 5vh; */
+    filter: invert(100%);
+    height: auto;
+    width:150px;
+    padding-right: 25px;
+}

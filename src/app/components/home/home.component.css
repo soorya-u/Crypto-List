@@ -1,0 +1,51 @@
+.heading{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: ghostwhite;
+}
+
+.design{
+    padding-top: 8vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    grid-column-gap: 5vh;
+}
+
+.card-class{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-class{
+    border: 2px solid yellow;
+    background-color: rgb(48, 48, 48);
+    color: ghostwhite;
+}
+
+h3{
+    align-self: center;
+}
+
+h5{
+    font-size: 98%;
+    align-self: center;
+}
+
+.btn{
+    background-color: yellow;
+    border: 2px solid black;
+}
