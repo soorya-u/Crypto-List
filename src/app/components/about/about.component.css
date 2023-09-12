@@ -19,7 +19,10 @@
 
 .heading h2,h5{
     font-family: 'JetBrains Mono';
+}
 
+h5{
+    font-size: 30px;
 }
 
 .social{
@@ -64,3 +67,12 @@
     width:150px;
     padding-right: 25px;
 }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
