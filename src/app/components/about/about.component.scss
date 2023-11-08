@@ -30,6 +30,7 @@ main {
       font-family: "JetBrains Mono";
       font-size: 2.5rem;
       font-weight: normal;
+      text-align: center;
     }
 
     h5 {
@@ -37,6 +38,7 @@ main {
       font-weight: normal;
       font-size: 2.2rem;
       color: yellow;
+      text-align: center;
     }
   }
 
@@ -53,15 +55,15 @@ main {
       color: ghostwhite;
       @include no-select();
       font-weight: normal;
+      text-align: center;
     }
 
     div {
-      width: 40vw;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
       flex-wrap: wrap;
+      gap: 2rem;
 
       .img-github {
         width: 3rem;
