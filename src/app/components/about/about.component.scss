@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("https://fonts.googleapis.com/css?family=JetBrains Mono");
-}
-
 @mixin no-select() {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -12,61 +7,78 @@
   user-select: none;
 }
 
-.main {
-  margin: 0;
-  padding: auto;
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18vh;
+
+  &::before, &::after {
+    content: '';
+  }
 
   .heading {
-    padding-top: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: ghostwhite;
-    font-family: "JetBrains Mono";
     @include no-select();
 
     h2 {
       font-family: "JetBrains Mono";
+      font-size: 2.5rem;
+      font-weight: normal;
     }
 
     h5 {
       font-family: "JetBrains Mono";
-      font-size: 30px;
+      font-weight: normal;
+      font-size: 2.2rem;
+      color: yellow;
     }
+  }
 
-    .social {
-      padding-top: 10vh;
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    h2 {
+      font-family: "JetBrains Mono";
+      font-size: 2.5rem;
+      color: ghostwhite;
       @include no-select();
+      font-weight: normal;
     }
 
-    .img-links {
-        width: 40vw;
+    div {
+      width: 40vw;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
 
       .img-github {
-        height: auto;
-        width: 100px;
-        filter: invert(100%);
+        width: 3rem;
       }
 
       .img-insta {
-        padding-top: 1vh;
         filter: invert(100%);
-        height: auto;
-        width: 145px;
+        width: 3rem;
       }
 
       .img-linkedin {
         filter: invert(100%);
-        height: auto;
-        width: 135px;
+        width: 3rem;
       }
       .img-discord {
         filter: invert(100%);
-        height: auto;
-        width: 150px;
+        width: 3rem;
       }
     }
   }
