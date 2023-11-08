@@ -15,8 +15,9 @@ main {
   align-items: center;
   gap: 18vh;
 
-  &::before, &::after {
-    content: '';
+  &::before,
+  &::after {
+    content: "";
   }
 
   .heading {
