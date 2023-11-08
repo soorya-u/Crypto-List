@@ -1,46 +1,89 @@
-<div class="heading">
-    <h1 style="color:yellow" class="noselect">
-        CryptoList 
-    </h1>
-    <h1 class="noselect">
-        Complete Update on Crypto Currencies
-    </h1>
-</div>
-<div class="container-fluid design">
-    <div class="card card-class" style="width: 18rem;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png" class="card-img-top" alt="Image of Bitcoin">
-        <div class="card-body">
-            <h3 class="card-title noselect">Bitcoin</h3>
-            <h5>$ {{usdprices?.bitcoin?.usd}}</h5>
-            <h5>₹ {{inrprices?.bitcoin?.inr}}</h5>
-            <a href="https://bitcoin.org/en/buy" class="btn btn-light" target="_blank">Buy Bitcoin</a>
+<main>
+  <div class="heading">
+    <h1 class="title">Crypto-List</h1>
+    <h1>Complete Update on Crypto Currencies</h1>
+  </div>
+
+  <article>
+    <div class="card-class">
+      <img
+        src="../../../assets/coins/BitCoin.png"
+        class="card-img-top"
+        alt="Image of Bitcoin"
+      />
+      <div class="card-body">
+        <h3 class="card-title noselect">Bitcoin</h3>
+        <div class="price">
+          <h5>$ {{ usdprices?.bitcoin?.usd }}</h5>
+          <h5>₹ {{ inrprices?.bitcoin?.inr }}</h5>
         </div>
+        <a
+          href="https://bitcoin.org/en/buy"
+          class="btn btn-light"
+          target="_blank"
+          >Buy Bitcoin
+        </a>
+      </div>
     </div>
-    <div class="card card-class" style="width: 18rem;">
-        <img src="https://www.spectre.ai/assets/images/assets/LTC-logo.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title noselect">Litecoin</h3>
-            <h5>$ {{usdprices?.litecoin?.usd}}</h5>
-            <h5>₹ {{inrprices?.litecoin?.inr}}</h5>
-            <a href="https://litecoin.com/en/buy" class="btn btn-light" target="_blank">Buy Litecoin</a>
+    <div class="card card-class">
+      <img
+        src="../../../assets/coins/LiteCoin.png"
+        class="card-img-top"
+        alt="Image of LiteCoin"
+      />
+      <div class="card-body">
+        <h3 class="card-title noselect">Litecoin</h3>
+        <div class="price">
+          <h5>$ {{ usdprices?.litecoin?.usd }}</h5>
+          <h5>₹ {{ inrprices?.litecoin?.inr }}</h5>
         </div>
+        <a
+          href="https://litecoin.com/en/buy"
+          class="btn btn-light"
+          target="_blank"
+          >Buy Litecoin
+        </a>
+      </div>
     </div>
-    <div class="card card-class" style="width: 18rem;">
-        <img src="https://www.spectre.ai/assets/images/assets/ETH-logo.png?v=2.13" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title noselect">Ethereum</h3>
-            <h5>$ {{usdprices?.ethereum?.usd}}</h5>
-            <h5>₹ {{inrprices?.ethereum?.inr}}</h5>
-            <a href="https://ethereum.org/en/get-eth/" class="btn btn-light" target="_blank">Buy Ethereum</a>
+    <div class="card card-class">
+      <img
+        src="../../../assets/coins/Etherium.png"
+        class="card-img-top img-etherium"
+        alt="Image of Etherium"
+      />
+      <div class="card-body">
+        <h3 class="card-title noselect">Ethereum</h3>
+        <div class="price">
+          <h5>$ {{ usdprices?.ethereum?.usd }}</h5>
+          <h5>₹ {{ inrprices?.ethereum?.inr }}</h5>
         </div>
+        <a
+          href="https://ethereum.org/en/get-eth/"
+          class="btn btn-light"
+          target="_blank"
+          >Buy Ethereum
+        </a>
+      </div>
     </div>
-    <div class="card card-class" style="width: 18rem;">
-        <img src="https://cdn-icons-png.flaticon.com/512/6001/6001356.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title noselect">Dogecoin</h3>
-            <h5>$ {{usdprices?.dogecoin?.usd}}</h5>
-            <h5>₹ {{inrprices?.dogecoin?.inr}}</h5>
-            <a href="https://dogecoin.com/wallets/" class="btn btn-light" target="_blank">Buy Dogecoin</a>
+    <div class="card card-class">
+      <img
+        src="../../../assets/coins/DogeCoin.png"
+        class="card-img-top"
+        alt="Image of DogeCoin"
+      />
+      <div class="card-body">
+        <h3 class="card-title noselect">Dogecoin</h3>
+        <div class="price">
+          <h5>$ {{ usdprices?.dogecoin?.usd }}</h5>
+          <h5>₹ {{ inrprices?.dogecoin?.inr }}</h5>
         </div>
+        <a
+          href="https://dogecoin.com/wallets/"
+          class="btn btn-light"
+          target="_blank"
+          >Buy Dogecoin
+        </a>
+      </div>
     </div>
-</div>
+  </article>
+</main>
